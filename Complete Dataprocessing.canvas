@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"group","id":"411b334d0b9f9b25","x":-1080,"y":380,"width":1440,"height":440,"label":"ETL Pipelines"},
+		{"type":"group","id":"eeba644995d53e4e","x":-1080,"y":-120,"width":1440,"height":400,"label":"Orchestration and Security"},
+		{"type":"group","id":"1ff39730d99b58fe","x":-1080,"y":1000,"width":1440,"height":390,"label":"Monitoring and Management"},
+		{"type":"group","id":"2072125b52f88b3d","x":600,"y":160,"width":480,"height":800,"label":"Business Applications"},
+		{"type":"text","text":"# Down Stream Applications","id":"112950e2d9685a1e","x":660,"y":415,"width":340,"height":135},
+		{"type":"text","text":"# Data Persistence\n\n## S3, Redshift","id":"0c85a0180f96ca9f","x":-22,"y":469,"width":360,"height":260,"color":"4"},
+		{"type":"text","text":"# Data Processing\n\n# AWS Glue or EMR\n\n# The Core is Spark","id":"b4a0638aeee0ba98","x":-560,"y":415,"width":440,"height":269,"color":"5"},
+		{"type":"text","text":"# Data Ingestion\n\n## DMS\n## Glue\n","id":"bd09a17233d561fd","x":-980,"y":469,"width":300,"height":253,"color":"3"},
+		{"type":"text","text":"# Orchestrators\n\n## Airflow\n## Step Functions","id":"fab5af7df446794c","x":-980,"y":-80,"width":355,"height":280,"color":"3"},
+		{"type":"text","text":"# Data Lineage\n\n## Dataset-Dataset and Datajob-Dataset relationships for the entire data platform","id":"8c7ad9c9779ad281","x":-940,"y":1030,"width":445,"height":320,"color":"3"},
+		{"type":"text","text":"# Monitoring\n\n## Resource and application level metrics in real time using Prometheus and Grafana.","id":"957e7f5f96e408ed","x":-259,"y":1030,"width":475,"height":320,"color":"4"},
+		{"type":"text","text":"# Visuvalization","id":"98727be0f480df51","x":660,"y":240,"width":340,"height":140},
+		{"type":"text","text":"# AI & ML Analysis","id":"9feb3a582dcfa955","x":660,"y":599,"width":340,"height":123},
+		{"type":"text","text":"# Advertising ","id":"70f082fc26979b7e","x":660,"y":760,"width":340,"height":100},
+		{"type":"text","text":"# Security\n## IAM\n## SSO and IDP Integration\n## AWS Lake formation\n","id":"b0d7278e10c4bc61","x":-259,"y":-80,"width":538,"height":280,"color":"4"}
+	],
+	"edges":[
+		{"id":"0aeebed0f21d84b1","fromNode":"bd09a17233d561fd","fromSide":"right","toNode":"b4a0638aeee0ba98","toSide":"left"},
+		{"id":"a37567361e3ff91a","fromNode":"b4a0638aeee0ba98","fromSide":"right","toNode":"0c85a0180f96ca9f","toSide":"left"},
+		{"id":"015a0a8e75f45e34","fromNode":"0c85a0180f96ca9f","fromSide":"right","toNode":"98727be0f480df51","toSide":"left"},
+		{"id":"40c885823ef69572","fromNode":"0c85a0180f96ca9f","fromSide":"right","toNode":"112950e2d9685a1e","toSide":"left"},
+		{"id":"ca25bc0dc189e3df","fromNode":"0c85a0180f96ca9f","fromSide":"right","toNode":"9feb3a582dcfa955","toSide":"left"},
+		{"id":"eeaf42f07dcb2201","fromNode":"0c85a0180f96ca9f","fromSide":"right","toNode":"70f082fc26979b7e","toSide":"left"},
+		{"id":"cb0bbee06678a589","fromNode":"1ff39730d99b58fe","fromSide":"top","toNode":"411b334d0b9f9b25","toSide":"bottom"},
+		{"id":"e0eec198bc2e7f7f","fromNode":"eeba644995d53e4e","fromSide":"bottom","toNode":"411b334d0b9f9b25","toSide":"top"}
+	]
+}

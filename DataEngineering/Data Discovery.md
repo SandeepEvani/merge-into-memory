@@ -1,0 +1,2 @@
+
+Data discovery is the process of identifying and understanding data across various sources. It involves searching for data, understanding its structure, content, and metadata, and assessing its quality and relevance for specific use cases

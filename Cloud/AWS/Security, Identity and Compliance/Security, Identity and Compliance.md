@@ -1,0 +1,20 @@
+[[AWS]]
+
+## Services
+
+- [[Cognito|Amazon Cognito]]
+- [[Detective|Amazon Detective]]
+- [[GuardDuty|Amazon GuardDuty]]
+- [[Inspector|Amazon Inspector]]
+- [[Macie|Amazon Macie]]
+- [[Certificate Manager|AWS Certificate Manager]]
+- [[Directory Service|AWS Directory Service]]
+- [[Firewall Manager|AWS Firewall Manager]]
+- [[Identity and Access Management|AWS Identity and Access Management]]
+- [[KMS|AWS Key Management Service]]
+- [[Network Firewall|AWS Network Firewall]]
+- [[Resource Access Manager|AWS Resource Access Manager]]
+- [[Secrets Manager|AWS Secrets Manager]]
+- [[Shield|AWS Shield]]
+- [[IAM Identity Centre|AWS IAM Identity Centre]]
+- [[WAF|AWS WAF]]

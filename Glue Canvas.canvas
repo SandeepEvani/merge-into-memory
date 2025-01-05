@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"5bf31477901ca046","x":319,"y":-225,"width":361,"height":245,"type":"text","text":"### Data Catalog\nThe Discovered Schema is persisted here, The hive metastore"},
+		{"id":"c845fc9f03f28c3f","x":-200,"y":-640,"width":360,"height":160,"type":"text","text":"### Triggers\n- On-demand\n- Scheduled runs"},
+		{"id":"43e8b92f3dbddf68","x":-200,"y":-225,"width":360,"height":245,"type":"text","text":"### Data Discovery\nGlue Crawlers + Glue connections with the help of classifiers crawl the data and infer schema.. etc..,"},
+		{"id":"f2ed268695581791","x":319,"y":-640,"width":361,"height":262,"type":"text","text":"### Accessibility\n- Redshift\n- EMR\n- Athena\n- Lake Formation"},
+		{"id":"cd4ad7d95de13334","x":-680,"y":-415,"width":260,"height":380,"type":"text","text":"### Data Sources\nList of different Data Sources\n\n- RDS\n- S3\n- Redshift\n- Open-prem databases"},
+		{"id":"c784cae360cf099b","type":"text","text":"### Streaming Data Sources\nList of different Data Sources\n - Kafka \n - Kinesis","x":-680,"y":80,"width":260,"height":320},
+		{"id":"d33a65c0a2262433","x":920,"y":-470,"width":480,"height":210,"type":"text","text":"### Glue ETL, Studio or Streaming\n- Glue for Ray\n- Glue for Python shell\n- Glue for Apache Spark"},
+		{"id":"0aca6aa2c5c2668b","type":"text","text":"### Glue Interactive Notebooks","x":920,"y":190,"width":480,"height":210},
+		{"id":"405977083132c9b8","x":1920,"y":-136,"width":360,"height":203,"type":"text","text":"### Target Data Store "}
+	],
+	"edges":[
+		{"id":"b91fcc0b8309499b","fromNode":"cd4ad7d95de13334","fromSide":"right","toNode":"43e8b92f3dbddf68","toSide":"left","label":"Sources"},
+		{"id":"b753ce083fb20514","fromNode":"43e8b92f3dbddf68","fromSide":"right","toNode":"5bf31477901ca046","toSide":"left"},
+		{"id":"fe4d806f242f8a26","fromNode":"c845fc9f03f28c3f","fromSide":"bottom","toNode":"43e8b92f3dbddf68","toSide":"top"},
+		{"id":"228173cc6033bece","fromNode":"5bf31477901ca046","fromSide":"top","toNode":"f2ed268695581791","toSide":"bottom"},
+		{"id":"140977ef46f3a165","fromNode":"c784cae360cf099b","fromSide":"right","toNode":"d33a65c0a2262433","toSide":"left"},
+		{"id":"3be8ee967ad3dec0","fromNode":"5bf31477901ca046","fromSide":"right","toNode":"d33a65c0a2262433","toSide":"left"},
+		{"id":"9dc01f46299e3f9b","fromNode":"cd4ad7d95de13334","fromSide":"right","toNode":"d33a65c0a2262433","toSide":"left"},
+		{"id":"4d1877fb77a47e0d","fromNode":"cd4ad7d95de13334","fromSide":"right","toNode":"0aca6aa2c5c2668b","toSide":"left"},
+		{"id":"88ed17b2ab0b4c9e","fromNode":"5bf31477901ca046","fromSide":"right","toNode":"0aca6aa2c5c2668b","toSide":"left"},
+		{"id":"a38400894696072b","fromNode":"d33a65c0a2262433","fromSide":"right","toNode":"405977083132c9b8","toSide":"left"}
+	]
+}

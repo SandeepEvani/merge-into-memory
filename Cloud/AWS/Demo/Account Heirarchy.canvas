@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"16ee1b50d0a285bc","type":"text","text":"Production Account","x":-440,"y":-100,"width":280,"height":60},
+		{"id":"a77391db3aeb642a","type":"text","text":"Test Account","x":-100,"y":-100,"width":280,"height":60},
+		{"id":"eef14703d65db32f","type":"text","text":"Development Account","x":240,"y":-100,"width":300,"height":60},
+		{"id":"ad37ae8af465896a","type":"text","text":"Management Account","x":-100,"y":-240,"width":280,"height":60}
+	],
+	"edges":[
+		{"id":"e9bc5604d3ae1525","fromNode":"a77391db3aeb642a","fromSide":"top","toNode":"ad37ae8af465896a","toSide":"bottom"},
+		{"id":"522d656e889b3516","fromNode":"16ee1b50d0a285bc","fromSide":"top","toNode":"ad37ae8af465896a","toSide":"bottom"},
+		{"id":"ccf82b3b5544f800","fromNode":"eef14703d65db32f","fromSide":"top","toNode":"ad37ae8af465896a","toSide":"bottom"}
+	]
+}

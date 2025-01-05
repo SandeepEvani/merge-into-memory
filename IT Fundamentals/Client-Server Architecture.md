@@ -1,0 +1,2 @@
+- Client in this case might be any device making a request for specific data which is present in a Server.
+- The server validates the requests and responds back with the necessary response to the request.

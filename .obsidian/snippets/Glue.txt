@@ -1,0 +1,87 @@
+import boto3
+
+
+AWS_ACCESS_KEY_ID = 'YOUR_ACCESS_KEY_ID' 
+AWS_SECRET_ACCESS_KEY = 'YOUR_SECRET_ACCESS_KEY'
+DATABASE_NAME = 'YOUR_GLUE_CATALOG_DATABASE_NAME' 
+TABLE_NAME = 'YOUR_GLUE_CATALOG_TABLE_NAME'
+S3_BUCKET_NAME = 'YOUR_S3_BUCKET_NAME' 
+S3_FOLDER_PATH = 's3://YOUR_S3_BUCKET_NAME/YOUR_S3_FOLDER_PATH/'
+
+# Create a Glue client
+glue_client = boto3.client('glue',
+                           region_name='us-east-1',
+                           aws_access_key_id=AWS_ACCESS_KEY_ID,
+                           aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
+
+
+
+# Define the Glue Crawler's parameters
+crawler_name = 'YOUR_CRAWLER_NAME'
+crawler_params = {
+    'Name': crawler_name,
+    'Role': 'YOUR_GLUE_ROLE_ARN',
+    'DatabaseName': DATABASE_NAME,
+    'Targets': {
+        'S3Targets': [
+            {
+                'Path': S3_FOLDER_PATH
+            }
+        ]
+    }
+}
+
+
+
+
+# Set up the Glue client
+glue_client = boto3.client('glue')
+
+
+
+# Create a Glue Crawler that reads data from the specified S3 folder
+response = glue_client.create_crawler(
+    Name='my_crawler',
+    Role='CRAWLER_ROLE_ARN',
+    DatabaseName='my_database',
+    TablePrefix='my_prefix',
+    Targets={
+        'S3Targets': [
+            {
+                'Path': 's3://my-bucket/my-folder/',
+            }
+        ]
+    }
+)
+
+
+# Set up the Redshift and Glue clients
+redshift_client = boto3.client('redshift')
+glue_client = boto3.client('glue')
+
+
+
+# Create the Redshift database
+response = redshift_client.create_database(
+    DBName='my_database',
+    Encrypted=True
+)
+
+
+
+# Get the list of tables in the Glue Catalogue
+response = glue_client.get_tables(
+    DatabaseName='my_database',
+    Expression='my_prefix*'
+)
+
+
+
+# Create an external table for each table in the Glue Catalogue
+for table in response['TableList']:
+    table_input = {
+        'DatabaseName': 'my_database',
+        'TableInput': table
+    }
+    response = glue_client.create_table(**table_input)
+    redshift_client.create_table(**table_input)
