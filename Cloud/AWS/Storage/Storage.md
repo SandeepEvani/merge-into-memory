@@ -24,10 +24,10 @@ _Object storage_ is built on top of block storage. Object storage is created us
 
 The AWS Storage portfolio consists of the core storage services and other closely associated services that work with the core storage services. Associated services include online and offline data and file-transfer services, edge storage services, hybrid storage services, and data-protection services.
 
-![[Pasted image 20240627132342.png]]
+![[AWS Storage Portfolio.png]]
 AWS Provides AWS Core storage services which resemble the Core storage services (Block, File, Object)
 
-![[Pasted image 20240627132501.png]]
+![[Core Storage Services.png]]
 
 ### AWS Block Storage Services
 
@@ -57,5 +57,3 @@ AWS offers services that are designed to provide hybrid cloud solutions. Hybrid 
 
 - [[Backup|AWS Backup]]
 - [[Elastic Disaster Recovery|AWS Elastic Disaster Discovery]]
-
-![[Pasted image 20240629182428.png]]

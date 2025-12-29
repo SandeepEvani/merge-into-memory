@@ -3,98 +3,105 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Cloud/AWS/Compute  ",
+      "query": "path:Cloud/AWS/Containers  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:Cloud/AWS/Analytics  ",
+      "query": "path:Cloud/AWS/Compute  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:\"Cloud/AWS/Application Integration\"  ",
+      "query": "path:Cloud/AWS/Analytics  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:Cloud/AWS/Containers  ",
+      "query": "path:\"Cloud/AWS/Application Integration\"  ",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:Cloud/AWS/Databases  ",
-      "color": {
-        "a": 1,
-        "rgb": 7256415
-      }
-    },
-    {
-      "query": "path:\"Cloud/AWS/Developer Tools\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 1204359
-      }
-    },
-    {
       "query": "path:\"Cloud/AWS/Management and Governance\"  ",
       "color": {
         "a": 1,
-        "rgb": 5395168
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Cloud/AWS/Databases  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     },
     {
       "query": "path:\"Cloud/AWS/Migration and Transfer\"  ",
       "color": {
         "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Cloud/AWS/Developer Tools\"  ",
+      "color": {
+        "a": 1,
         "rgb": 11621088
-      }
-    },
-    {
-      "query": "path:\"Cloud/AWS/Networking and Content Delivery\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "path:Cloud/AWS/Storage  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431008
       }
     },
     {
       "query": "path:\"Cloud/AWS/Security, Identity and Compliance\"  ",
       "color": {
         "a": 1,
-        "rgb": 16026250
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:\"Cloud/AWS/Networking and Content Delivery\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Cloud/AWS/Storage  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Terraform  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.436363636363636,
-  "repelStrength": 10.5320964749536,
+  "showArrow": false,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.12083333333333,
+  "lineSizeMultiplier": 0.508333333333333,
+  "collapse-forces": false,
+  "centerStrength": 0.453125,
+  "repelStrength": 15.7291666666667,
   "linkStrength": 1,
-  "linkDistance": 155,
-  "scale": 0.12969944128108057,
-  "close": false
+  "linkDistance": 150,
+  "scale": 0.5887408756445203,
+  "close": true
 }

@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6dc29c14501e841c",
+        "id": "93ff12fb92ffebb5",
         "type": "tabs",
         "children": [
           {
-            "id": "d78d9c7a9a8272bd",
+            "id": "8ce9e44535890708",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "Glue Canvas.canvas",
+                "viewState": {
+                  "x": 737.5022642717535,
+                  "y": -450.96321441306173,
+                  "zoom": -1.8685652827025268
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Glue Canvas"
             }
           }
         ]
@@ -36,7 +43,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,8 +73,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -99,17 +107,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataEngineering/Data Catalog.md",
-                "collapseAll": false,
+                "file": "Cloud/AWS/Management and Governance/Control Tower.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Data Catalog"
+              "title": "Backlinks for Control Tower"
             }
           },
           {
@@ -118,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataEngineering/Data Catalog.md",
+                "file": "Cloud/AWS/Management and Governance/Control Tower.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Data Catalog"
+              "title": "Outgoing links from Control Tower"
             }
           },
           {
@@ -133,22 +141,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "e90061c73691b694",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "DataEngineering/Data Catalog.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Data Catalog"
             }
           },
           {
@@ -160,17 +158,32 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "dac16f94deeaceba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cloud/AWS/Management and Governance/Control Tower.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Control Tower"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 305.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -180,57 +193,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d78d9c7a9a8272bd",
+  "active": "8ce9e44535890708",
   "lastOpenFiles": [
-    "Cloud/AWS/Storage/Storage Gateway.md",
-    "Cloud/AWS/Storage/Storage.md",
-    "Cloud/AWS/Storage/S3.md",
-    "Cloud/AWS/Storage/Outposts.md",
-    "Cloud/AWS/Storage/FSx for Windows File Server.md",
-    "Cloud/AWS/Storage/FSx for OpenZFS.md",
-    "Cloud/AWS/Storage/FSx for NetApp ONTAP.md",
-    "Cloud/AWS/Storage/FSx for Lustre.md",
-    "Cloud/AWS/Storage/Elastic Disaster Recovery.md",
-    "Cloud/AWS/Storage/File Cache.md",
-    "Cloud/AWS/Storage/EFS.md",
-    "Cloud/AWS/Storage/EBS.md",
-    "Cloud/AWS/Storage/Backup.md",
-    "Cloud/AWS/Security, Identity and Compliance/WAF.md",
-    "Cloud/AWS/Security, Identity and Compliance/Shield.md",
-    "Cloud/AWS/Security, Identity and Compliance/Security, Identity and Compliance.md",
-    "Cloud/AWS/Security, Identity and Compliance/Secrets Manager.md",
-    "Cloud/AWS/Security, Identity and Compliance/Resource Access Manager.md",
-    "Cloud/AWS/Security, Identity and Compliance/Network Firewall.md",
-    "Cloud/AWS/Security, Identity and Compliance/Macie.md",
-    "Cloud/AWS/Security, Identity and Compliance/KMS.md",
-    "Cloud/AWS/Security, Identity and Compliance/Inspector.md",
-    "Cloud/AWS/Security, Identity and Compliance/Identity and Access Management.md",
-    "Cloud/AWS/Security, Identity and Compliance/IAM Identity Centre.md",
-    "Cloud/AWS/Security, Identity and Compliance/GuardDuty.md",
-    "Cloud/AWS/Security, Identity and Compliance/Firewall Manager.md",
-    "Classification of different IAM Components.png",
-    "Floating Knowledge",
-    "Pasted image 20240627181433.png",
-    "Pasted image 20240627132501.png",
-    "Pasted image 20240627180733.png",
-    "Pasted image 20240627132342.png",
-    "Architectural Patterns/Anti Corruption layer pattern.png",
-    "Pasted image 20240627181701.png",
-    "Architectural Patterns",
-    "IT Fundamentals/Storage Types",
-    "Cloud/AWS/Demo/Account Heirarchy.canvas",
-    "Cloud/AWS Paradigms",
-    "Cloud/AWS Paradigms/Serverless",
-    "Glue Canvas.canvas",
-    "Pasted image 20240629182428.png",
-    "Apache",
-    "Cloud/AWS/Security, Identity and Compliance",
-    "Cloud/AWS/Storage",
-    "Cloud/AWS/New folder",
-    "Cloud/AWS/Networking and Content Delivery",
-    "Pasted image 20240625001035.png",
     "Complete Dataprocessing.canvas",
-    "Cloud/AWS/Artifacts/Pasted image 20240508205929.png",
+    "Cloud/AWS/Management and Governance/Control Tower.md",
+    "Cloud/AWS/Analytics/Athena.md",
+    "Cloud/AWS/Analytics/Data Firehose.md",
+    "Cloud/AWS/Analytics/Analytics.md",
+    "Cloud/AWS/Management and Governance/Organizations.md",
+    "root.md",
+    "Cloud/AWS/Management and Governance/images/AWS Organizations.png",
+    "Cloud/AWS/Management and Governance/Untitled.md",
+    "Cloud/AWS/Management and Governance/images",
+    "Cloud/AWS/Developer Tools/CLI.md",
+    "Cloud/AWS/Storage/Storage.md",
+    "Cloud/AWS/Networking and Content Delivery/Virtual Private Cloud.md",
+    "Excalidraw/Drawing 2025-09-01 00.39.49.excalidraw.md",
+    "Terraform/Core Workflow.md",
+    "Terraform/Editions.md",
+    "Terraform/Terraform Language/Check Block.md",
+    "Terraform/Terraform Language/Terraform Language.md",
+    "Terraform/Terraform Language/Resource Block.md",
+    "Terraform/Terraform Language/Provisioner Block.md",
+    "Terraform/Terraform Language/Import Block.md",
+    "Terraform/Terraform Language/Moved Block.md",
+    "Terraform/Terraform CLI/terraform validate.md",
+    "Terraform/Terraform CLI/terraform state.md",
+    "Terraform/Terraform CLI/terraform show.md",
+    "Terraform/Terraform CLI/terraform plan.md",
+    "Terraform/Terraform CLI/terraform output.md",
+    "Terraform/Terraform CLI/terraform init.md",
+    "Cloud/AWS/Storage/Images/S3 Storage Classes.png",
+    "Glue Canvas.canvas",
+    "Cloud/AWS/Storage/Images/Core Storage Services.png",
+    "Cloud/AWS/Security, Identity and Compliance/Images",
+    "Cloud/AWS/Storage/Images",
+    "Cloud/AWS/Storage/Images/AWS Storage Portfolio.png",
+    "Cloud/AWS/Security, Identity and Compliance/Images/Classification of different IAM Components.png",
+    "Cloud/AWS/Storage/Images/S3 Intelligent-Tiering.png",
+    "Pasted image 20240629182428.png",
+    "Cloud/AWS/Storage/Images/S3 Lifecycle Policy.png",
+    "Terraform/Terraform CLI/Untitled",
+    "Terraform/Terraform CLI",
+    "Architectural Patterns/Anti Corruption layer pattern.png",
+    "Terraform/File and Directories",
+    "Terraform/Style Guide",
+    "Terraform/terraform_providers_illustration.png",
+    "Terraform/Terraform Language",
+    "Terraform",
+    "Cloud/AWS/Demo/Account Heirarchy.canvas",
+    "Floating Knowledge",
     "Untitled 2.canvas"
   ]
 }

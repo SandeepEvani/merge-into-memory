@@ -1,7 +1,7 @@
 
->[!Definition]
-Terraform is an open-source tool developed by HashiCorp for declaring Infrastructure as code (IaC) using the HashiCorp Configuration Language.
-
+>[!What is Terraform?]
+Terraform is an open-source tool developed by HashiCorp for declaring Infrastructure as code ([[IaC]]) using the HashiCorp Configuration Language.
+> Terraform is a IaC tool that lets you build, change and version infrastructure safely and efficiently
 ### Terraform' s Plugin based architecture
 
 Terraform uses a plugin based architecture, which is there is a terraform core binary, which is the terraform binary we manually download from terraform official website.
@@ -26,17 +26,6 @@ Here is a sample how the HCL is written ::
 }
 ```
 
-Different Terraform Block types include: 
-- [[Terraform#Terraform Settings block|Terraform Settings block]].
-- [[Terraform#Terraform Provider block|Terraform Provider block]].
-- [[Terraform#Terraform Resource block|Terraform Resource block]].
-- [[Terraform#Terraform Data block|Terraform Data block]].
-- [[Terraform#Terraform Input block|Terraform Input variable block]]
-- [[Terraform#Terraform Local block|Terraform Local variable block]]
-- [[Terraform#Terraform Output block|Terraform Output values block]]
-- [[Terraform#Terraform Module block|Terraform Module block]]
-#### Terraform Settings block
-	
 #### Terraform Resource block
  Each resource block describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records.
  

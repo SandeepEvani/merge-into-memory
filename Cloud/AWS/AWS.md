@@ -24,8 +24,4 @@ AWS Has a wide range of services that can fit into any use case and the pay as y
 
 - ### [[Networking and Content Delivery]]
 
-
-
-### AWS Storage
-
-[[Storage]]
+- ### [[Storage]]

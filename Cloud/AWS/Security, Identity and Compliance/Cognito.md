@@ -5,7 +5,7 @@
 
 Amazon Cognito has two main features in it, they are 
 - [[#Cognito User Pools]]
-- Cognito Identity Pools
+- [[#Cognito Identity Pools]]
 
 ### Cognito User Pools
 

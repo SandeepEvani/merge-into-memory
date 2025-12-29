@@ -14,8 +14,6 @@
 
 In Context with the EC2 machines, let's assume a huge server rack with multiple servers (indicated with IPs 192.168.xxx.xxx) running a suitable hypervisor, responsible for launching EC2s and below is a image for our imagination.
 
-![[Pasted image 20240508205929.png]]
-
 In the Image above, we see AWS servers running EC2 machines with a different IP prefixes (10.0.0.xxx), these EC2s are color coded as per the VPCs they belong to, i.e., the blue ones belong to a VPC, the green on to another and the grey one to another. So if the EC2 of the blue VPC on the left (10.0.0.2) wants to communicate with EC2 of the same VPC on the right (10.0.0.4), The traffic flowing from the first EC2 machine is included with a VPC header and there is a mapping service that essentially locates the destination server (192.168.1.3) which consists of the second EC2, while the packets reach the second server, the VPC header is verified and later stripped and then sent to the VM.
 
 This is a brief description of how the VPC isolation works, for more detailed information [refer](https://www.youtube.com/watch?v=3qln2u1Vr2E&pp=ygUkYW5vdGhlciBkYXkgYW5vdGhlciBiaWxsaW9uIHBhY2tlcnRz)
@@ -34,12 +32,10 @@ While the order may juggle based on other factors, we'll try to understand how e
 - There are two IP versions we can use for a VPC, the IPv4 and IPv6, or the combination of both the versions, also known as the dual stack VPC.
 - There is a shortage of IPv4 network addresses, which leads to an increasing cost factor per public IP procured, as well as other features like the NAT gateway, but IPv4 is used almost everywhere, so depending upon the feasibility of the external communication version choose the IP version
 ### - Size of VPC
-
 - The next important component is the size of the VPC required, Size here is the number of IPs a VPC contains, which is proportional to the number of resources that could be launched in a VPC.
 - Based upon your approximate requirement of resources, you can plan your VPC.
 - This particular planning is not required if your choosing an IPv6 version, as there are too many IPs available for usage.
 ### - CIDR Block
-
 - CIDR block is the block of IPs your resources are assigned with.
 
 

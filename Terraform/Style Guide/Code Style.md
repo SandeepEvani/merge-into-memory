@@ -1,0 +1,6 @@
+- Execute `terraform fmt` and `terraform validate` before committing them to the VCS or can add the relevant configuration in the pre-commit-config.yml to auto-execute when committed.
+- Use `#` for single line comments and `//` or `/*` style for multi-line comments
+- Use nouns for resource names and do not include the resource type in the resource name
+- Use underscores to separate resource names, and wrap the resource name in double quotes.
+- Always include a default provider
+- Include type and description for every input block and description for every output block
