@@ -1,7 +1,7 @@
 
 ## What is Hudi?
  - Hudi is a framework built by Uber in 2016 to bring the ACID functionality to Data Lakes essentially making Datalakes __DataLakeHouses__.
- - Hudi integrates with multiple other frameworks. One such framework we use [[spark]] to perform the CRUD operations including    [[CDC]]
+ - Hudi integrates with multiple other frameworks. One such framework we use [[MoM/Spark]] to perform the CRUD operations including    [[CDC]]
 
 ## How to install Hudi?
 - Use the packages option and use the respective Hudi jar file  Coordinate to install it from the central repository.

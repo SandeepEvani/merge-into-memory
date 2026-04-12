@@ -11,20 +11,32 @@
             "id": "8ce9e44535890708",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Glue Canvas.canvas",
-                "viewState": {
-                  "x": 737.5022642717535,
-                  "y": -450.96321441306173,
-                  "zoom": -1.8685652827025268
-                }
+                "file": "Data Engineering/Types of Data.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Glue Canvas"
+              "icon": "lucide-file",
+              "title": "Types of Data"
+            }
+          },
+          {
+            "id": "136b2b425a6a3fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineering/Data Engineering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Engineering"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,38 +205,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8ce9e44535890708",
+  "active": "dffa521f91705d60",
   "lastOpenFiles": [
-    "Complete Dataprocessing.canvas",
-    "Cloud/AWS/Management and Governance/Control Tower.md",
-    "Cloud/AWS/Analytics/Athena.md",
-    "Cloud/AWS/Analytics/Data Firehose.md",
-    "Cloud/AWS/Analytics/Analytics.md",
-    "Cloud/AWS/Management and Governance/Organizations.md",
-    "root.md",
-    "Cloud/AWS/Management and Governance/images/AWS Organizations.png",
-    "Cloud/AWS/Management and Governance/Untitled.md",
-    "Cloud/AWS/Management and Governance/images",
-    "Cloud/AWS/Developer Tools/CLI.md",
-    "Cloud/AWS/Storage/Storage.md",
-    "Cloud/AWS/Networking and Content Delivery/Virtual Private Cloud.md",
-    "Excalidraw/Drawing 2025-09-01 00.39.49.excalidraw.md",
-    "Terraform/Core Workflow.md",
-    "Terraform/Editions.md",
-    "Terraform/Terraform Language/Check Block.md",
-    "Terraform/Terraform Language/Terraform Language.md",
-    "Terraform/Terraform Language/Resource Block.md",
-    "Terraform/Terraform Language/Provisioner Block.md",
-    "Terraform/Terraform Language/Import Block.md",
-    "Terraform/Terraform Language/Moved Block.md",
-    "Terraform/Terraform CLI/terraform validate.md",
-    "Terraform/Terraform CLI/terraform state.md",
-    "Terraform/Terraform CLI/terraform show.md",
-    "Terraform/Terraform CLI/terraform plan.md",
-    "Terraform/Terraform CLI/terraform output.md",
-    "Terraform/Terraform CLI/terraform init.md",
-    "Cloud/AWS/Storage/Images/S3 Storage Classes.png",
+    "Data Engineering/Data Engineering.md",
+    "Data Engineering/The Data Engineering Lore.md",
+    "Cloud/AWS/Containers/ECR.md",
+    "Data Engineering/Types of Data.md",
+    "Data Engineering/Data Catalog.md",
+    "Apache/Kafka.md",
+    "Apache/Spark.md",
+    "Apache/Hudi.md",
+    "Apache/Apache.md",
+    "Excalidraw/Drawing 2025-03-29 17.03.00.excalidraw.md",
+    "IT Fundamentals/Git.md",
+    "IT Fundamentals/Infrastructure as Code.md",
+    "IT Fundamentals/IaC.md",
+    "Data Engineering/Data Lakehouses.md",
+    "Data Engineering/Data Lakes.md",
+    "Data Engineering/Data Warehouses.md",
+    "Data Engineering/SQL.md",
+    "Architectural Patterns/Anti Corruption Layer.md",
+    "Untitled.md",
+    "DataEngineering/Untitled.md",
+    "Data Engineering/DataModelling",
+    "Excalidraw/Drawing 2026-04-08 17.07.37.excalidraw.md",
     "Glue Canvas.canvas",
+    "Architectural Patterns/Transactional outbox pattern.md",
+    "Architectural Patterns/Sagas Pattern.md",
+    "Architectural Patterns/Publish-subscribe pattern.md",
+    "Architectural Patterns/Hexagonal Architecture Pattern.md",
+    "Architectural Patterns/Event Sourcing Pattern.md",
+    "Complete Dataprocessing.canvas",
+    "Cloud/AWS/Management and Governance/images/AWS Organizations.png",
+    "Cloud/AWS/Management and Governance/images",
+    "Cloud/AWS/Storage/Images/S3 Storage Classes.png",
     "Cloud/AWS/Storage/Images/Core Storage Services.png",
     "Cloud/AWS/Security, Identity and Compliance/Images",
     "Cloud/AWS/Storage/Images",
@@ -242,7 +256,6 @@
     "Terraform/Terraform Language",
     "Terraform",
     "Cloud/AWS/Demo/Account Heirarchy.canvas",
-    "Floating Knowledge",
     "Untitled 2.canvas"
   ]
 }
