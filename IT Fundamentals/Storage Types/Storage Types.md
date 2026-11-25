@@ -1,6 +1,6 @@
 - Block storage
-	- It's like a disk attached to PC. we can Partition it, install applications, run OS etc.
+	- It's like a disk attached to a PC. We can partition it, install applications, run OS etc.
 - File system storage
 	- File system storage is just a storage for a group of files, could be shared where the hierarchy is maintained between the files.
 - Object storage
-	- Object storage is nothing but random files(images, videos, documents, executables) can be stored and they don't maintain a hierarchy. This type of storage uses REST API to access/manage files.
+	- Object storage is where random files(images, videos, documents, executables) can be stored and they don't maintain a hierarchy. This type of storage uses REST API to access/manage files.

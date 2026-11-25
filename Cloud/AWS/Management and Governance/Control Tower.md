@@ -1,22 +1,22 @@
 [[Management and Governance]]
 
 >[!Definition]
->AWS Control Tower offers a straight forward way to setup and govern a multi-account AWS environment, following all the prescriptive best practices
+>AWS Control Tower offers a straightforward way to set up and govern a multi-account AWS environment, following all the prescriptive best practices
 
-Basically, AWS Control Tower is a orchestrator of different AWS services like AWS Organizations, AWS Identity Centre, AWS Service Catalog, Guard Duty and many more, to build a Landing Zone with *drift* detection, which is divergence from the best practices.
+Basically, AWS Control Tower is an orchestrator of different AWS services like AWS Organizations, AWS Identity Centre, AWS Service Catalog, Guard Duty and many more, to build a Landing Zone with *drift* detection, which is divergence from the best practices.
 
 **Landing Zone**: A Landing Zone is a well-architected multi-account environment, designed with best practices and industry standards.
 
-**Controls**: Controls or Guardrails is a high level rule that provides ongoing governance of your overall AWS accounts
+**Controls**: A control (or guardrail) is a high-level rule that provides ongoing governance of your overall AWS accounts
 
-**Account Factory**: Account factory is a configurable account template which create a new AWS account with the required configurations.
+**Account Factory**: Account factory is a configurable account template which creates a new AWS account with the required configurations.
 
 ### Structure of an AWS Control Tower
 
 - **Root**: The root of the organization which contains all the OUs and AWS Accounts
-- **Security OU**: This OU contains the Log Archive account and Audit accounts, we can create new accounts or bring existing accounts to the Security OU, but these accounts cannot be modified after their Initial Launch
+- **Security OU**: This OU contains the Log Archive account and Audit accounts, we can create new accounts or bring existing accounts to the Security OU, but these accounts cannot be modified after their initial launch
 - **Sandbox OU**: An Optional OU created in the Landing Zone
-- **IAM Identity Center Directory**: Identity center is also enabled, when the Control Tower is created, By Default, we will have The service managed users, this can also be altered to point to external identities and groups.
+- **IAM Identity Center Directory**: Identity center is also enabled, when the Control Tower is created, By default, we will have service managed users, this can also be altered to point to external identities and groups.
 
 ### What Happens when we create an AWS Control Tower
 - AWS Organizations creates 2 OUs :: The Security OU and the Sandbox OU in the Root OU

@@ -7,12 +7,12 @@ We can use terraform to deploy, release, scale and monitor infrastructure
 Using Sentinel, a policy as code framework, we can enforce strict requirements on the resources and the types of resources provisioned.
 
 ## Software Defined Networking
-Can Interact and create and manage network components via terraform.
+We can interact with, create and manage network components via terraform.
 
 ## Kubernetes
-Terraform provides a Kubernetes Provider to deploy and manage a Kubernetes cluster and it's resources.
+Terraform provides a Kubernetes Provider to deploy and manage a Kubernetes cluster and its resources.
 
 ## Parallel Environments
-Provision repeatable infrastructure in different environments for prod, staging etc.., just with a few commands
+Provision repeatable infrastructure in different environments for prod, staging etc., just with a few commands
 
 

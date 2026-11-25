@@ -1,1 +1,1 @@
-[[Management and Governance]], [[IaC]]
+[[Management and Governance]], [[Infrastructure as Code|IaC]]

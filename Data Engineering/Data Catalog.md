@@ -1,1 +1,0 @@
-**Data Catalog**, is a centralized repository that organizes and describes data assets through metadata to provide context and facilitate access. It acts as a reference point for data professionals to locate and comprehend datasets, their lineage, and usage patterns.

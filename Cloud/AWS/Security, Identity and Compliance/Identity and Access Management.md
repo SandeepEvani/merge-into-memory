@@ -3,30 +3,30 @@
 > [!Definition]
 > IAM is a globally available and globally resilient service where we can centrally manage permissions that control which AWS resources users can access. You use IAM to control who is [[Authentication|authenticated]] and [[Authorization|authorized]] to use resources.
 
-When an AWS Account is created, there is one Identity that is created automatically by AWS with is called the Account's root user.
-This _account root user_ has an unrestricted access over all the resources in that particular AWS account. No policy can restrict an root user.
+When an AWS Account is created, there is one Identity that is created automatically by AWS which is called the Account's root user.
+This _account root user_ has an unrestricted access over all the resources in that particular AWS account. No policy can restrict a root user.
 
 ## The Control and Data Plane of IAM.
 
-**The Control plane** is the management plane of IAM, where we create and manage different IAM resources and assign permissions to different resources. In Short, This handles all the moving parts in IAM.
-The Creates, deletes and updates of the IAM is the control plane
+**The Control plane** is the management plane of IAM, where we create and manage different IAM resources and assign permissions to different resources. In short, This handles all the moving parts in IAM.
+The creates, deletes and updates of the IAM is the control plane
 
 **The Data plane** is where all the information regarding the resources is retained. The data plane operates at a much higher scale than the control plane. All the IAM resources and their configurations together make up the Data plane. This Data Plane is replicated across all AWS regions* (Regions before the Hong-Kong region was introduced, post that we need to opt-in to other regions, after we opt-in the data is propagated into those specific regions).
 The state of the IAM Identities and resources is the Data Plane, also known as the Auth Data Plane.
 
-The IAM's data plane is internal to the AWS. Any time an request is made by an Identity to an Specific AWS service, the service in-turn makes an API call to the IAM to authenticate and authorize the request.
+The IAM's data plane is internal to AWS. Any time a request is made by an Identity to a specific AWS service, the service in-turn makes an API call to the IAM to authenticate and authorize the request.
 Therefore, the use of IAM's data plane is to authenticate and authorize the requests from different services.
 ## How IAM Works
 
 As we have learnt above that each service, whenever a request is received it forwards the authentication headers to IAM data plane. The Auth data plane validates the signature and if the signature is not valid, then the request is errored immediately. For the other case where the signature is valid, we have IAM return a bunch of parameters related to the principal or the caller. Till this point, we have successfully completed the _Authentication_ of the request.
 
-What's coming next is the Authorization of the request, i.e., is the caller at all is privileged enough to make a specific request to the specific service? The answer to this question is deduced by the service in itself, the job of the Auth data plane concludes at verifying the request and returning back the caller metadata with all other IAM metadata (Policies, Groups, Organizations) to the service.
+What's coming next is the Authorization of the request, i.e., is the caller at all privileged enough to make a specific request to the specific service? The answer to this question is deduced by the service in itself, the job of the Auth data plane concludes at verifying the request and returning back the caller metadata with all other IAM metadata (Policies, Groups, Organizations) to the service.
 
 Now, the service with all the required data pieces, starts to evaluate the different policies (based on string matching) against the [[#Request Context]] and proceeds if there is any policy providing an ***explicit allow*** without an ***explicit deny***.
 
 ## AWS SigV4
 
-AWS SigV4 is request signing process that is performed either by the user or the AWS SDKs. it's a signing algorithm that actually performs a series of hashes called the HMACs. So we sign the request body and the secret access key together with the region and the service we would like to access. This helps in fast and safe authentication of requests by AWS. For more information refer [AWS re:Invent 2022 - A day in the life of a billion requests (SEC404)](https://www.youtube.com/watch?v=tPr1AgGkvc4)****
+AWS SigV4 is request signing process that is performed either by the user or the AWS SDKs. It's a signing algorithm that actually performs a series of hashes called the HMACs. So we sign the request body and the secret access key together with the region and the service we would like to access. This helps in fast and safe authentication of requests by AWS. For more information refer [AWS re:Invent 2022 - A day in the life of a billion requests (SEC404)](https://www.youtube.com/watch?v=tPr1AgGkvc4)
 
 
 ## Components of IAM
@@ -57,7 +57,7 @@ AWS service for SSO.
 
 ## Attribute based Access Control (ABAC)
 
-ABAC is an authorization strategy that defines permissions based on attributes, and in AWS there attributes are called as _tags_.
+ABAC is an authorization strategy that defines permissions based on attributes, and in AWS these attributes are called as _tags_.
 ### ABAC vs RBAC
 
 - ABAC scales better when a user/group with an ABAC policy needs access to another set of resources and not in this set.

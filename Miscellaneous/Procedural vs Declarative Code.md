@@ -1,1 +1,1 @@
-Declarative programming is where we declare what we want without saying how to do it versus Procedural programming is where you specify all the detailed instructions to get the result.
+Declarative programming is where we declare what we want without saying how to do it versus procedural programming is where you specify all the detailed instructions to get the result.

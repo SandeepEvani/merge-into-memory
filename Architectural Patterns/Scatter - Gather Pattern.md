@@ -3,7 +3,7 @@ The scatter-gather pattern is a message routing pattern that involves broadcasti
 
 ## Scatter by Distribution
 
-In the scatter by distribution method, the root controller divides the incoming request into independent tasks and assigns them to available recipients (the _scatter_ phase). Each recipient (process, container, or Lambda function) works independently and in parallel on its computation, and produces a portion of the response. When the recipients complete their tasks, they send their responses to an aggregator (the _gather_ phase). The aggregator combines the partial responses and returns the final result to the client
+In the scatter by distribution method, the root controller divides the incoming request into independent tasks and assigns them to available recipients (the _scatter_ phase). Each recipient (process, container, or Lambda function) works independently and in parallel on its computation, and produces a portion of the response. When the recipients complete their tasks, they send their responses to an aggregator (the _gather_ phase). The aggregator combines the partial responses and returns the final result to the client.
 
 ## Scatter by Auction
 

@@ -6,7 +6,7 @@
 
 An _event_ is also an immutable fact that occurred in the past.
 
-## Designing a Event Driven pattern
+## Designing an Event Driven pattern
 
 ### Disadvantages of using a synchronous pattern
 

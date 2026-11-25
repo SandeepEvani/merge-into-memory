@@ -3,7 +3,7 @@ Git is a version control software usually used in software development projects 
 
 Here is also some common terminology used across the world of Git.
 
-- Repo: A short form for Repository, is a independent unit in which the Git software is enabled for, all the functions of the git are applicable to a repository and does not affect another repository.
+- Repo: A short form for Repository, is an independent unit in which the Git software is enabled for, all the functions of Git are applicable to a repository and does not affect another repository.
 - Usually a Repo is a folder containing files or a collection of folders
 
 

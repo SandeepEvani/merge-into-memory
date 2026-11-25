@@ -1,6 +1,6 @@
 We should not commit:
 - state files and their backup files :: terraform.tfstate and terraform.tfstate.*
-- the .terraform.tfstate.lock.info :: This file is automatically created and destroyed during the terraform apply
+- the .terraform.tfstate.lock.info file :: This file is automatically created and destroyed during the terraform apply
 - .terraform directory, which contains all the providers and modules
 
 and always commit files:

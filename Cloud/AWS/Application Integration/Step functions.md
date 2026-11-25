@@ -11,24 +11,24 @@ Step Functions is based on state machines and tasks. A state machine is a workfl
 
 ### Different States in a State Machine
 
-- Pass State : Passes it's input to the output
+- Pass State : Passes its input to the output
 - Task State : Represents a single unit of work performed by a state machine
 - Choice State : Provides a branching logic to the state machine
 - Wait State : Delays the state machine, till a specified timestamp or a duration from the start of the state
-- Success State : Stops an activity Successfully
-- Fail State : Stops the activity of a state Machine and marks it as failure
+- Success State : Stops an activity successfully
+- Fail State : Stops the activity of a state machine and marks it as a failure
 - Parallel State : Create parallel branches of activity
 - Map State : Can be used to run a set of steps for each element of an input array
 
 ### States and Transitions
 
-A State is what unit of work a state machine performs, and transitions are the links which connect states together and define the State Machine
+A state is a unit of work that a state machine performs, and transitions are the links which connect states together and define the state machine
 
 ### States Language
 
-Amazon states language is a JSON structured document which is used to define state machines and the transitions between the states
+Amazon States Language is a JSON structured document which is used to define state machines and the transitions between the states
 
 ### Step Functions Workflow Studio
 
-Workflow Studio for step functions is a low code visual workflow designer  
+Workflow Studio for step functions is a low-code visual workflow designer.  
 

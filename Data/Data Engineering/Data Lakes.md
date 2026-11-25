@@ -1,4 +1,4 @@
-***Data Lakes are a huge storage repository that holds vast amount of [[Types of Data#Structured, Unstructured and Semi-Structured data types|Structured, Unstructured and Semi-Structured data]].***
+***Data Lakes are a huge storage repository that holds a vast amount of [[Types of Data#Structured, Unstructured and Semi-Structured data types|Structured, Unstructured and Semi-Structured data]].***
 
 - Stores large amounts of raw data without any predefined schema
 - Preprocessing is not usually done.

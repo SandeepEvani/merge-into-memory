@@ -1,10 +1,10 @@
 [[Cloud Computing]]
 
-AWS :: Amazon Web services, is the world's leading Cloud service provider. 
+AWS :: Amazon Web Services, is the world's leading Cloud service provider. 
 
 ## What Makes AWS the leader in cloud?
 
-AWS Has a wide range of services that can fit into any use case and the pay as you go pricing model with large number of customers bring economies to a lower value.
+AWS has a wide range of services that can fit into any use case and its pay-as-you-go pricing model, combined with a large number of customers, brings costs down through economies of scale.
 
 ## Categories of services available
 

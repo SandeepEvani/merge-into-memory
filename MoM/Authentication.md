@@ -1,3 +1,3 @@
 
-Authentication is the process of determining if an Identity is who he is claiming to be.
+Authentication is the process of determining if an Identity is who they are claiming to be.
 

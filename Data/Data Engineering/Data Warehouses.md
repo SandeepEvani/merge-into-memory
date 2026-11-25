@@ -1,4 +1,4 @@
-A Centralized repository optimized for analysis where data from different sources is stored in a structural format.
+A centralized repository optimized for analysis where data from different sources is stored in a structured format.
 
 - Data Warehouses contain data from different sources, undergoing many transformations.
 - Data Warehouses are heavy storages and compute machines and are optimized to handle Terabytes to Petabytes of data.

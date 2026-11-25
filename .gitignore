@@ -1,0 +1,10 @@
+# OS and IDE files
+.DS_Store
+.idea/
+
+# Obsidian local state
+.obsidian/workspace.json
+
+# AI plugins: these folders hold credentials, chat history and large binaries
+.obsidian/plugins/copilot/
+.obsidian/plugins/github-copilot/

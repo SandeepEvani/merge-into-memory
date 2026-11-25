@@ -8,10 +8,10 @@ EventBridge is a fully managed service that handles event ingestion, delivery, s
 
 ## Key Components of EventBridge
 
-- Event: An event is an indicator of change in state, Events are immutable facts that have occurred in the past.
+- Event: An event is an indicator of change in state. Events are immutable facts that have occurred in the past.
 - Event bus: An event bus is a pipeline that receives events.
 - Rule: A rule matches the incoming events and matches them to the appropriate targets for processing
-- Target: A Target is a resource where the matched events are pushed to.
+- Target: A target is a resource where the matched events are pushed to.
 
 
 

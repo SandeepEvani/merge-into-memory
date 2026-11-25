@@ -3,7 +3,7 @@ The publish-subscribe pattern, which is also known as the pub-sub pattern, is a 
 
 SNS and EventBridge are the two services which can be used for the pub-sub pattern.
 
-EventBridge offers more flexibility compared to SNS, like event transformation, archive and replay capabilities etc.., EventBridge can act an Event Router whereas SNS is more like an event broadcaster
+EventBridge offers more flexibility compared to SNS, like event transformation, archive and replay capabilities etc. EventBridge can act as an event router whereas SNS is more like an event broadcaster
 
 
 

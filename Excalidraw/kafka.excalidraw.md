@@ -16,7 +16,7 @@ Partition 2 ^c9IJMDHf
 
 Partition n ^gWMrMSK5
 
-Messages are sent into
+Messages sent into
 the partitions receive a unique, 
 sequential id called the offset ^VNHpsAVc
 
@@ -742,14 +742,14 @@ sequential id called the offset ^VNHpsAVc
 			"updated": 1722538724620,
 			"link": null,
 			"locked": false,
-			"text": "Messages are sent into\nthe partitions receive a unique, \nsequential id called the offset",
-			"rawText": "Messages are sent into\nthe partitions receive a unique, \nsequential id called the offset",
+			"text": "Messages sent into\nthe partitions receive a unique, \nsequential id called the offset",
+			"rawText": "Messages sent into\nthe partitions receive a unique, \nsequential id called the offset",
 			"fontSize": 20,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Messages are sent into\nthe partitions receive a unique, \nsequential id called the offset",
+			"originalText": "Messages sent into\nthe partitions receive a unique, \nsequential id called the offset",
 			"lineHeight": 1.25
 		},
 		{

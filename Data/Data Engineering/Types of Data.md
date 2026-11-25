@@ -3,14 +3,14 @@
 - #### Structured Data
 	- Data which is organized in a defined manner or schema, usually Relational Databases
 	Characteristics:
-	- Easily query able
+	- Easily queryable
 	- organized and a consistent structure
 	Common examples:
 	- Databases
 - #### Unstructured Data
 	- Data which is not structured, no schema
 	Characteristics
-	- Cannot be queried with out the preprocessing
+	- Cannot be queried without preprocessing
 	- varied formats
 	Common examples
 	- usually a block storage
@@ -18,7 +18,7 @@
 	- Data which consists of some structure, but not highly organized
 	Characteristics
 	- Elements are tagged or organized in some way.
-	- Flexible than structured data and not chaotic as unstructured data
+	- More flexible than structured data and not as chaotic as unstructured data
 	Common examples:
-	- Logs, Emails, XML, Json
+	- Logs, Emails, XML, JSON
 

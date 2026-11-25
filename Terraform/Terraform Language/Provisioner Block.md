@@ -15,11 +15,11 @@ Most of the times, provisioners would require a connection to the remote system 
 For a provisioner to reference the parent object for attributes, using the `resource_type` and `resource_name` would cause a cyclic dependency, to avoid that, there is a `self` object which is created to output the attributes of the created instance.
 
 ### Arguments common across the provisioners
-- `on_failure` : This argument specifies Terraform how to proceed if the provisioner failed, the default behavior which is `fail`  would taint the resource and return an error, setting this parameter to `continue` would continue the execution of the Terraform apply
+- `on_failure` : This argument tells Terraform how to proceed if the provisioner failed, the default behavior which is `fail`  would taint the resource and return an error, setting this parameter to `continue` would continue the execution of the Terraform apply
 - `when`: when this parameter is set to destroy, this will execute the provisioner during the destroy phase of the terraform apply
 
 ### Provisioner without a resource
-When it is not logical to associate a provisioner to a specific resource, we can associate the provision with a `null_resource` or `terraform_data`, with these resources, we could provide a input and also trigger provisioners when ever there is a change in the mentioned resources n the triggers
+When it is not logical to associate a provisioner to a specific resource, we can associate the provisioner with a `null_resource` or `terraform_data`, with these resources, we could provide an input and also trigger provisioners whenever there is a change in the mentioned resources in the triggers
 
 There are 3 types of provisioners:
 - `file`: copies files or directories from local machine where terraform is getting executed to the remote infrastructure
