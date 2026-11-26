@@ -1,4 +1,4 @@
-# merge-into-memory
+# Merge Into Memory
 
 *When matched, update what I know. When not matched, insert what I don't.*
 
